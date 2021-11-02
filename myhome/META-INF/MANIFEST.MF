@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: myhome
+Bundle-SymbolicName: myhome
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: myhome.jar,
+ sts-4.10.0.RELEASE/lombok.jar
+Automatic-Module-Name: myhome
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: com.godcoder.myhome,
+ com.godcoder.myhome.controller,
+ com.godcoder.myhome.model,
+ com.godcoder.myhome.repository
